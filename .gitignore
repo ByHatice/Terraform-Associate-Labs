@@ -11,6 +11,9 @@ terraform.tfstate.backup
 # Terraform logs
 terraform.log
 
+# Terraform plan files
+*.tfplan
+
 # IDE or editor specific files
 *.vscode/
 .idea/
