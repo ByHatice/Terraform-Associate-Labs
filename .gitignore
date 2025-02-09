@@ -1,5 +1,16 @@
+# Terraform state files
 .terraform/
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
+.terraform.tfstate.lock.hcl
+
+# Terraform state lock info files
+*.tfstate.lock.info
+
+# Terraform logs
 terraform.log
+
+# IDE or editor specific files
+*.vscode/
+.idea/
