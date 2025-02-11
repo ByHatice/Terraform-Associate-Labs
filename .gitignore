@@ -13,6 +13,7 @@ terraform.log
 
 # Terraform plan files
 *.tfplan
+tfplan
 
 # IDE or editor specific files
 *.vscode/
